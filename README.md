@@ -14,15 +14,3 @@ This project demonstrates how to perform **aspect-based sentiment analysis (ABSA
 ```bash
 python >= 3.10
 pip install torch transformers pandas tqdm scikit-learn huggingface_hub
-project/
-│
-├── data/
-│   ├── Laptops_Train_sb1.xml
-│   └── laptops_test_sb1.xml
-│
-├── models/
-│   └── llama-2-7b-hf/   # Optional local model folder
-│
-├── semeval_absa_llama.py  # Main script
-├── README.md
-└── LICENSE
